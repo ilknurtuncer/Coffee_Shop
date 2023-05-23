@@ -11,7 +11,7 @@ body,html{
     height: 100%;
 }
 
-/* .container{
+ .container{
     
     border: 1px solid red;
     display: flex;
@@ -20,8 +20,8 @@ body,html{
     margin:27px 100px ;
     position: relative;
 
-}
 .left img{
+} 
 height: 50px;
 width: 126px;
 
@@ -37,13 +37,13 @@ width: 126px;
     text-decoration: none;
     }
 
-    .right a:hover{
+    /* .right a:hover{
         text-decoration: underline;
     }
     .right img:hover{
-      /* border: 2px solid red;
+      border: 2px solid red;
       border-radius: 50%;
-      padding: 3px; */
+      padding: 3px;
      
       border-radius: 50%;
       outline: 2px solid red;
@@ -63,4 +63,4 @@ width: 126px;
     .right button:hover{
        text-decoration: underline;
     
-    } */
+    }  */
