@@ -11,17 +11,15 @@ body,html{
     height: 100%;
 }
 
- .container{
-    
-    border: 1px solid red;
+.container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin:27px 100px ;
     position: relative;
 
+}
 .left img{
-} 
 height: 50px;
 width: 126px;
 
@@ -41,9 +39,9 @@ width: 126px;
         text-decoration: underline;
     }
     .right img:hover{
-      border: 2px solid red;
+      /* border: 2px solid red;
       border-radius: 50%;
-      padding: 3px;
+      padding: 3px; */
      
       border-radius: 50%;
       outline: 2px solid red;
@@ -63,4 +61,113 @@ width: 126px;
     .right button:hover{
        text-decoration: underline;
     
-    } 
+    }
+/* 
+   ! MAİN LEFT */
+
+   .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .main__left{
+    position: relative;
+    width: 28rem;
+    height: 40rem;
+    margin-top: 1rem;
+
+   }
+   .main__left h1{
+    font-size: 6rem;
+    line-height: 7rem;
+
+   }
+   .main__left h1 img{
+    width: 4rem;
+
+   }
+
+   .main__left--smalltext{
+    width: 22rem;
+    height: 10vh;
+    margin: 1rem 0;
+    color: #64646a;
+
+   }
+   .main__left--button button{
+padding: 1rem 2rem;
+background-color: black;
+color: white;
+border-radius: 2rem;
+   }
+.main__left--button a{
+    margin-left: 2rem;
+    color: black;
+    font-size: 0.9rem;
+    /* font-weight: 500; */
+
+}
+
+/* !MAİN RİGHT */
+
+.main__right--coffeecup img{
+    width: 515px;
+}
+.main__right--logo img{
+    position: absolute;
+    top:12rem;
+    right: 19rem;
+}
+
+.main__right--mask img{
+    position: absolute;
+    top: 17rem;
+    margin-left: 7rem;
+    width: 24rem;
+    opacity: 0.5;
+}
+
+.main__right--raiting{
+    position: absolute;
+    top:27rem;
+    margin-left: 2rem;
+    width: 13rem;
+    padding: 0.8rem 1rem;
+    border-radius: 1rem;
+  
+
+}
+.main__right--raiting p{
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: #64646a;
+}
+
+.main__right--raiting i{
+    font-size: 1.1rem;
+}
+
+@media (max-width:960px){
+    .main {
+        flex-wrap: wrap;
+}
+.main__right--logo img{
+    top:52rem;
+}
+.main__right--mask img{
+    top:54.5rem;
+}
+.main__right--rating{
+    top:68.5rem;
+}
+header{
+    width: 30rem;
+}
+.left img{
+    width: 10rem;
+}
+header.right{
+    column-gap: 1vh;
+    width: 20rem;
+}
+}
